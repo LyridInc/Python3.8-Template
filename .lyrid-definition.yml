@@ -1,0 +1,11 @@
+name: $APP_NAME
+description: App Description
+ignoreFiles: .git venv
+modules:
+- name: $MODULE_NAME
+  language: python3.8
+  description: Module description
+  functions:
+  - name: $FUNCTION_NAME
+    entry: entry.py
+    description: the entry point for the function
